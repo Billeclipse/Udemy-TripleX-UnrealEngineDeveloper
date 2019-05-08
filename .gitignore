@@ -1,0 +1,8 @@
+###################################################
+## Ignore Visual Code Extra Files by Billeclipse ##
+###################################################
+
+# Compiled Object files
+*.obj
+# Executables
+*.exe
