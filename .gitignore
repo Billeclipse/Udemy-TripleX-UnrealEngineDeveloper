@@ -4,5 +4,9 @@
 
 # Compiled Object files
 *.obj
+
 # Executables
 *.exe
+
+# Visual Code Files
+*/.vscode
