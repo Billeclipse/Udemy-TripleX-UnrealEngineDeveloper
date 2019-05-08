@@ -16,7 +16,20 @@ int main(){
     std::cout << "-- The codes add-up to: " << CodeSum << std::endl;
     std::cout << "-- The codes multiply to give : " << CodeProd << std::endl;
 
-    int PlayerGuess;
+    // Store player guess
+    int GuessA, GuessB, GuessC;
+    std::cin >> GuessA >> GuessB >> GuessC;
+    std::cout << "You entered: " << GuessA << GuessB << GuessC << std::endl;
 
+    int GuessSum = GuessA + GuessB + GuessC;
+    int GuessProd = GuessA * GuessB * GuessC;
+
+    // Check if the player's guess is correct
+    if(GuessSum == CodeSum && GuessProd == CodeProd){
+        std::cout << "You Win!" << std::endl;
+    } else {
+        std::cout << "You Lose!" << std::endl;
+    }
+    
     return 0;
 }
